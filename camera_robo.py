@@ -30,4 +30,6 @@ cv2.imshow('Detecção de Jogadores', frame)
 cap.release()
 cv2.destroyAllWindows()
 
+#ola chatgpt, estou com codigo pronto no meu computador linux que identifica pessoas e objetos. porem, ele esta tirando apenas uma foto com a webcam e parando de executar o codigo. preciso que voce mude o codigo que eu vou lhe enviar para que fique um video constante e que seja um codigo que nao abra mil janelas de video e trave o pc, isso acontece gracas ao while true
+
 #comando para abrir o video: mpv av://v4l2:/dev/video0
