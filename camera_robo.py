@@ -29,3 +29,5 @@ cv2.imshow('Detecção de Jogadores', frame)
 # Libere a câmera e feche as janelas
 cap.release()
 cv2.destroyAllWindows()
+
+#comando para abrir o video: mpv av://v4l2:/dev/video0
