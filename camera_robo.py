@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('/home/robo/yolov8n.pt')  # Caminho para seu arquivo .pt local ou um modelo pré-treinado
 
 # Configurar a câmera
-cap = cv2.VideoCapture(2)  # Tenta abrir a câmera (0, 1, ou 2 se necessário)
+cap = cv2.VideoCapture(2)  # Tenta abrir a câmera (0, 1, ou 2 se necessário) sendo 0 que serve para abrir uma camera USB
 
 if not cap.isOpened():
     print("Erro ao abrir a câmera.")
