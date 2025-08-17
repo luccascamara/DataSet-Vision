@@ -1,0 +1,1 @@
+Código realizado a partir do treinamento de um dataset personalizado, criado especificamente para detectar a bola do Robô Humanoide com visão computacional. Esse dataset foi construído a partir de diversas imagens coletadas em diferentes condições de iluminação, ângulos e distâncias, garantindo maior robustez ao modelo.
